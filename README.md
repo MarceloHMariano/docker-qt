@@ -1,5 +1,9 @@
 # Qt Development Environment
 
+[![GitHub](https://img.shields.io/github/license/marcelohmariano/qt.svg)](LICENSE)
+[![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/marcelohmariano/qt.svg)](https://hub.docker.com/r/marcelohmariano/qt)
+[![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/marcelohmariano/qt.svg)](https://hub.docker.com/r/marcelohmariano/qt/builds)
+
 This [Docker](https://www.docker.com/) image is intended to provide a development
 environment for Qt. It contains the [Qt](https://www.qt.io) libraries and tools,
 a C++ compiler and a debugger.
