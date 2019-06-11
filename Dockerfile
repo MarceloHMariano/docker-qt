@@ -37,7 +37,6 @@ RUN echo 'Building image...' \
     libqt5-creator \
     libqt5-qtbase-devel \
     libqt5-qtbase-private-headers-devel \
-    libqt5-qtdoc-qch \
     libqt5-qtdeclarative-devel \
     libqt5-qtmultimedia-devel \
     libqt5-qttools \
