@@ -30,18 +30,7 @@ RUN echo 'Building image...' \
   && fc-cache \
   \
   # Install Qt5
-  && zypper -n install --no-recommends -t pattern devel_qt5 \
-  && zypper -n install --no-recommends \
-    libQt5Bootstrap-devel-static \
-    libQt5OpenGLExtensions-devel-static \
-    libqt5-creator \
-    libqt5-qtbase-devel \
-    libqt5-qtbase-private-headers-devel \
-    libqt5-qtdeclarative-devel \
-    libqt5-qtmultimedia-devel \
-    libqt5-qttools \
-    libqt5-qttranslations \
-    libqt5-qtquickcontrols2 \
+  && zypper -n install --recommends -t pattern devel_qt5 \
   \
   # For some reason installing qtdoc via 'zypper install' does not extract the
   # packages files
